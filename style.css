@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    color: blue;
+    margin-top: 40px;
+    font-weight: 300;
+  }
+  
+  h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  /*************/
+  /*    FORM   */
+  /*************/
+  
+  .form {
+    display: flex;
+  }
+  
+  .select-control {
+    font-size: 12px;
+  }
+  
+  .form label {
+    padding-top: 5px;
+    color: black;
+    margin-right: 15px;
+  }
+
+  .button,
+  .button:active {
+    margin-left: 15px;
+    padding-left: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: 25px;
+    border-color: rebeccapurple;
+  }
+  .button:hover,
+  .button:active,
+  .button:focus {
+    text-decoration: none;
+    border: 25px;
+    border-color: pink;
+  }
+  .form-inline button .glyphicon {
+    margin-right: 5px;
+  }
+  
+  /***************/
+  /*  BAR CHART  */
+  /***************/
+  
+  .bar {
+    fill: lightskyblue;
+  }
+  
+  .axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis-title {
+    font-size: 11px;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+  
+  .x-axis {
+    font-size: 12px;
+  }

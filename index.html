@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab 5</title>
+
+    <!-- Load CSS files -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Coffee House Chains</h1>
+      <h2>A ranking of selected leading coffee house chains worldwide</h2>
+
+      <!-- Select box to choose the ranking type -->
+      <form class="form">
+        <label for="ranking-type">Group by</label>
+        <select id="ranking-type" class="select-control">
+          <option value="stores">Stores worldwide</option>
+          <option value="revenue">Revenue in billion U.S. dollars</option>
+        </select>
+        <!-- Activity IV -->
+        <button type="button" class="button button-outline" id="change-sorting">
+          <i class="fas fa-sort"></i> Sort
+        </button>
+      </form>
+
+      <!-- Parent container for the visualization -->
+      <div id="chart-area"></div>
+    </div>
+
+    <!-- Your implementation -->
+    <script src="main.js"></script>
+  </body>
+</html>
