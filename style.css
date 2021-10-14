@@ -15,9 +15,7 @@ body {
     color: black;
   }
   
-  /*************/
   /*    FORM   */
-  /*************/
   
   .form {
     display: flex;
@@ -53,9 +51,7 @@ body {
     margin-right: 5px;
   }
   
-  /***************/
   /*  BAR CHART  */
-  /***************/
   
   .bar {
     fill: lightskyblue;
